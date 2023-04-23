@@ -146,7 +146,7 @@ a.l_ext{
   }
   
 img.irina{
-    max-width: 500px;
+    max-width: 400px;
     display: block;
     margin: auto;
     padding: 0%;
@@ -154,9 +154,9 @@ img.irina{
 
 @media screen and (max-width: 300px){
     img.irina{
-        max-width: 600px;
+        max-width: 200px;
         display: block;
-        margin: auto;
+        margin:0%;
     }
 }
 
