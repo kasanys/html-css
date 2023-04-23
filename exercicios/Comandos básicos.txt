@@ -1,0 +1,52 @@
+Para começar no html:
+   -! e dá enter
+
+Para o titulo(O que fica em cima da janela):
+   -<title>Titulo</title>
+
+Para o texto:
+   -H1, H2, H3, ... , quanto maior, menor o texto fica,
+apesar de isto não definir tamanho
+
+Para os paragrafos:
+   -p e enter, paragrafo é onde ficará maioria do texto,
+como exemplo uma noticia de uma matéria.
+
+Para a quebra de linha do paragrafo:
+   -br e enter, ele basicamente bota teu paragrafo para baixo
+
+para colocar menor que (<):
+      -&lt
+
+   -maior que (>):
+     -&gt
+
+-| Como os <> definem um comando,
+para mostrtar eles deve ser assim.
+
+Para colocar emojis:
+   -&#x + código do emoji (ex:1F921) + ;
+
+Para adicionar outros unicodes de simbolos especiais:
+   -& e uma porrada de códigos, só vendo uma lista mesmo,
+um exemplo é (&dollar; | faz o simbolo do dinheiro)
+
+Para pôr imagens:
+   -img + enter, ou, <Img>
+
+Para pôr Favicon(Foto que tem em cima com o nome da página:
+   -link:favicon (A imagem deve estar em formato de ícone, e tamanho pequeno)
+
+
+
+
+Para deixar em negrito:
+   -Forma um: <b>
+   -Forma dois: <strong>
+
+Para deixar em itálico:
+   -Forma um: <i>
+   -Forma dois: <EM>
+
+Editar mais rápido:
+   -Atalho: Ctrl + shift + P

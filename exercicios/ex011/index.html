@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esta pagina em vários dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="Imagens/pequeno.jpg" type="">
+        <source media="(max-width: 1050px)" srcset="Imagens/médio.jpg" type="">
+        <img src="Imagens/grande.jpg" alt="">
+    </picture>
+    <h1>Áudios</h1>
+    <p>Vamo escutar musiquinha</p>
+    <audio src="Mídia/lamento.mp3" controls ></audio>
+    <hr>
+    <audio preload="none" controls loop >
+        <source src="Mídia/lamento.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
