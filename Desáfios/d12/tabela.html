@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelinhas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 90vh;
+            height: 100px;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        thead{
+            color: white;
+            background-color: brown;
+        }
+
+        .gen{
+            background-color: coral;
+            color: white;
+            font-variant-caps: small-caps;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Tabelinha de desafio</caption>
+        <thead>
+            <th>Área</th>
+            <th>Disciplinas</th>
+            <th colspan="3">Notas</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td>5.0</td>
+                <td>7.2</td>
+                <td>5.6</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+                <td>5.0</td>
+                <td>7.2</td>
+                <td>5.6</td>
+            </tr>
+
+            <tr>
+                <td>Física</td>
+                <td>5.0</td>
+                <td>7.2</td>
+                <td>5.6</td>
+            </tr>
+
+            <tr>
+                <td>Química</td>
+                <td>5.0</td>
+                <td>7.2</td>
+                <td>5.6</td>
+            </tr>
+            
+            <tr class="gen">
+                <th colspan="4">Média de Exatas</td>
+                <td>7.0</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>7.2</td>
+                <td>10.0</td>
+                <td>5.6</td>
+            </tr>
+
+            <tr>
+                <td>geografia</td>
+                <td>7.2</td>
+                <td>5.6</td>
+                <td>3.6</td>
+            </tr>
+
+            <tr class="gen">
+                <th colspan="4">Média de Humanas</td>
+                <td>7.2</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            
+        </tfoot>
+
+    </table>
+</body>
+</html>

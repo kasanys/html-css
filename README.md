@@ -3,4 +3,4 @@
 
  <a href="https://kasanys.github.io/html-css/exercicios/ex001/index.html">Executar exercício 001</a>
 
- <a href="https://https://kasanys.github.io/html-css/desáfios/d1/index.html">Desafios</a>
+ <a href="https://kasanys.github.io/html-css/Des%C3%A1fios/d1/">Desafios</a>
