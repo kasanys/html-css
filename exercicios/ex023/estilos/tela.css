@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*estilo para tela */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: rgb(255, 200, 128);
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+menu ul{
+    list-style-type: none;
+    background-color: rgb(206, 136, 95);
+    padding: 10px 0px 10px 10px;
+}
+
+menu li{
+    display: inline-block;padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(202, 81, 59);
+    border-radius: 35px;
+    transition: all .5s ease;
+}
+
+menu li:hover{
+    background-color: white;
+    color: rgb(202, 81, 59);
+    transition: all .5s ease;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+article > h2{
+    padding-bottom: 10px;
+    line-height: 1em;
+}
